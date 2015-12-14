@@ -1,0 +1,525 @@
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 6N1E1JB101R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           77,704,984 sequences; 28,292,933,896 total letters
+Query= gi|114318995|gb|ABI63346.1| insulin [Homo sapiens]
+
+Length=98
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|ABI63346.1|  insulin [Homo sapiens]                             201     2e-64
+ref|XP_008967348.1|  PREDICTED: insulin isoform X2 [Pan paniscus]  201     4e-64
+gb|ABB89743.1|  preproinsulin 1 [Rattus losea]                     160     3e-48
+ref|XP_007466015.1|  PREDICTED: insulin [Lipotes vexillifer]       151     2e-44
+ref|NP_001009272.1|  insulin precursor [Felis catus]               145     3e-42
+gb|ACK44319.1|  insulin (predicted) [Oryctolagus cuniculus]        145     3e-42
+gb|EGW08477.1|  Insulin [Cricetulus griseus]                       148     8e-42
+ref|XP_006911039.1|  PREDICTED: insulin [Pteropus alecto]          143     3e-41
+gb|ACX53313.1|  insulin-2 precursor [Mus musculus]                 138     3e-39
+ref|XP_006750158.1|  PREDICTED: insulin [Leptonychotes weddellii]  137     4e-39
+ref|XP_005499300.1|  PREDICTED: insulin [Columba livia]            129     4e-36
+ref|XP_006008147.1|  PREDICTED: insulin [Latimeria chalumnae]      129     7e-36
+ref|XP_006033708.1|  PREDICTED: insulin [Alligator sinensis]       122     4e-33
+ref|XP_005486624.1|  PREDICTED: insulin [Zonotrichia albicollis]   117     2e-31
+ref|XP_005427262.1|  PREDICTED: insulin [Geospiza fortis]          117     2e-31
+ref|XP_010395059.1|  PREDICTED: insulin [Corvus cornix cornix]     112     2e-29
+ref|XP_010159413.1|  PREDICTED: insulin [Eurypyga helias]          112     2e-29
+ref|XP_010011817.1|  PREDICTED: insulin [Nestor notabilis]         112     3e-29
+ref|XP_009808574.1|  PREDICTED: insulin [Gavia stellata]           112     3e-29
+ref|XP_008920278.1|  PREDICTED: insulin [Manacus vitellinus]       112     3e-29
+ref|XP_005237374.1|  PREDICTED: insulin [Falco peregrinus]         111     4e-29
+ref|XP_010002178.1|  PREDICTED: insulin [Chaetura pelagica]        110     1e-28
+ref|XP_009918866.1|  PREDICTED: insulin [Haliaeetus albicilla]     110     1e-28
+gb|KFP52374.1|  Insulin [Cathartes aura]                           110     2e-28
+ref|XP_007424294.1|  PREDICTED: insulin [Python bivittatus]        109     4e-28
+ref|XP_009905017.1|  PREDICTED: insulin [Picoides pubescens]       106     7e-27
+ref|XP_007902984.1|  PREDICTED: insulin [Callorhinchus milii]      101     7e-25
+
+ALIGNMENTS
+>gb|ABI63346.1| insulin [Homo sapiens]
+Length=98
+
+ Score = 201 bits (512),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+           MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+Sbjct  1   MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+
+Query  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+           LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+
+
+>ref|XP_008967348.1| PREDICTED: insulin isoform X2 [Pan paniscus]
+Length=98
+
+ Score = 201 bits (510),  Expect = 4e-64, Method: Compositional matrix adjust.
+ Identities = 97/98 (99%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+           MALWMRLLPLLALLALWGPDPA+AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+Sbjct  1   MALWMRLLPLLALLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+
+Query  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+           LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+
+
+>gb|ABB89743.1| preproinsulin 1 [Rattus losea]
+Length=110
+
+ Score = 160 bits (406),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 81/110 (74%), Positives = 85/110 (77%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALWMR LPLLALL +W P PA AFV QHLCG HLVEALYLVCGERGFFYTPK+RRE ED
+Sbjct  1    MALWMRFLPLLALLVVWEPKPAQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVED  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+             Q            G LQ LALE + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  61   PQVPQLELGGSPEAGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>ref|XP_007466015.1| PREDICTED: insulin [Lipotes vexillifer]
+Length=110
+
+ Score = 151 bits (382),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 84/110 (76%), Positives = 86/110 (78%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALWMRL+PLLALLALW P PA AFV+QHLCGSHLVEALYLVCGERGFFY  K RRE E 
+Sbjct  1    MALWMRLVPLLALLALWAPTPARAFVSQHLCGSHLVEALYLVCGERGFFYAAKARREVEG  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+             Q            GSLQP ALEG  QKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61   PQVGAVELGGGPGAGSLQPPALEGPPQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>ref|NP_001009272.1| insulin precursor [Felis catus]
+ sp|P06306.2|INS_FELCA RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor
+ dbj|BAB84110.1| preproinsulin [Felis catus]
+Length=110
+
+ Score = 145 bits (366),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 83/110 (75%), Positives = 86/110 (78%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MA W RLLPLLALL+LW P P  AFVNQHLCGSHLVEALYLVCGERGFFYTPK RREAED
+Sbjct  1    MAPWTRLLPLLALLSLWIPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAED  60
+
+Query  61   LQGS------------LQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+            LQG             LQP ALE  LQKRGIVEQCC S+CSLYQLE+YCN
+Sbjct  61   LQGKDAELGEAPGAGGLQPSALEAPLQKRGIVEQCCASVCSLYQLEHYCN  110
+
+
+>gb|ACK44319.1| insulin (predicted) [Oryctolagus cuniculus]
+Length=110
+
+ Score = 145 bits (366),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 85/110 (77%), Positives = 88/110 (80%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MA W RLLPLLALL L  PDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPK+RRE E+
+Sbjct  1    MAPWPRLLPLLALLVLCRPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEE  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+            LQ            G LQP ALE +LQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61   LQVGQAELGGGPDAGGLQPSALELALQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>gb|EGW08477.1| Insulin [Cricetulus griseus]
+Length=248
+
+ Score = 148 bits (374),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 85/110 (77%), Positives = 89/110 (81%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALWMRLLPLLALLALW P+PA AFVNQHLCGSHLVEALYLVCGERGFFYTPK+RR  ED
+Sbjct  139  MALWMRLLPLLALLALWEPNPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVED  198
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+             Q            G LQ LALE + QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  199  PQVTQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN  248
+
+
+>ref|XP_006911039.1| PREDICTED: insulin [Pteropus alecto]
+ gb|ELK13208.1| Insulin [Pteropus alecto]
+Length=110
+
+ Score = 143 bits (360),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 83/110 (75%), Positives = 85/110 (77%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW RLLPLLALL LW P PA AFV+QHLCGSHLVEALYLVCGERGFFYTPK RRE E 
+Sbjct  1    MALWTRLLPLLALLGLWAPTPAPAFVSQHLCGSHLVEALYLVCGERGFFYTPKARRELEG  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+             Q            GS Q LALEG  QKRGIV+QCCTSICSLYQLENYCN
+Sbjct  61   PQGGEVELGGGPGAGSRQALALEGPPQKRGIVDQCCTSICSLYQLENYCN  110
+
+
+>gb|ACX53313.1| insulin-2 precursor [Mus musculus]
+Length=109
+
+ Score = 138 bits (347),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 79/109 (72%), Positives = 82/109 (75%), Gaps = 12/109 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALWMR LPLLALL LW   P  AFV QHLCGSHLVEALYLVCGERGFFYTP +RRE ED
+Sbjct  1    MALWMRFLPLLALLFLWESHPTQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVED  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYC  97
+             Q            G LQ LALE + QKRGIV+QCCTSICSLYQLENYC
+Sbjct  61   PQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYC  109
+
+
+>ref|XP_006750158.1| PREDICTED: insulin [Leptonychotes weddellii]
+Length=110
+
+ Score = 137 bits (346),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 87/110 (79%), Positives = 89/110 (81%), Gaps = 12/110 (11%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW  LLPLLALLALW P P+ AFVNQHLCGSHLVEALYLVCGERGFFYTPK RRE ED
+Sbjct  1    MALWTHLLPLLALLALWAPAPSRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVED  60
+
+Query  61   LQ------------GSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+             Q            G LQPLALEG+LQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61   PQVRAVELGGAPGPGGLQPLALEGALQKRGIVEQCCTSICSLYQLENYCN  110
+
+
+>ref|XP_005499300.1| PREDICTED: insulin [Columba livia]
+ gb|EMC88047.1| Insulin [Columba livia]
+Length=107
+
+ Score = 129 bits (325),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 68/107 (64%), Positives = 76/107 (71%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPL+ALLAL GP  + A  NQHLCGSHLVEALYLVCG+RGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLMALLALSGPGTSHAAANQHLCGSHLVEALYLVCGDRGFFYSPKARRDIEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEIGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_006008147.1| PREDICTED: insulin [Latimeria chalumnae]
+Length=107
+
+ Score = 129 bits (324),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 64/107 (60%), Positives = 78/107 (73%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R+LPL  L+AL  P    A  NQHLCGSHLVEALYLVCGE+GFFY+P+ RRE E 
+Sbjct  1    MALWVRVLPLFLLIALSAPSTTQAIANQHLCGSHLVEALYLVCGEKGFFYSPRGRREIEQ  60
+
+Query  61   --LQGSLQ------PLALEGSL-QKRGIVEQCCTSICSLYQLENYCN  98
+              ++  L+      P   +G++ +KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   SLIKSGLENEVEELPFQQQGTMKEKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_006033708.1| PREDICTED: insulin [Alligator sinensis]
+ ref|XP_006272487.1| PREDICTED: insulin [Alligator mississippiensis]
+Length=107
+
+ Score = 122 bits (305),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 65/107 (61%), Positives = 74/107 (69%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+  LPLLA LAL  P  + A  NQ LCGSHLV+ALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIHSLPLLAFLALSSPSVSYAAANQRLCGSHLVDALYLVCGERGFFYSPKGRRDLEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L+  ++ LA    E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVNGPLRNEVEELAFQQQEYEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_005486624.1| PREDICTED: insulin [Zonotrichia albicollis]
+Length=107
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 73/107 (68%), Positives = 77/107 (72%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL GP  + A VNQHLCGSHLVEALYLVCGERGFFY PK RR+AE 
+Sbjct  1    MALWIRSLPLLALLALSGPGSSHAAVNQHLCGSHLVEALYLVCGERGFFYQPKARRDAEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G L  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLMSGPLHGELGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_005427262.1| PREDICTED: insulin [Geospiza fortis]
+Length=107
+
+ Score = 117 bits (294),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 73/107 (68%), Positives = 77/107 (72%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL GP  + A VNQHLCGSHLVEALYLVCGERGFFY PK RR+AE 
+Sbjct  1    MALWIRSLPLLALLALSGPGSSHAAVNQHLCGSHLVEALYLVCGERGFFYQPKARRDAEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G L  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGELGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_010395059.1| PREDICTED: insulin [Corvus cornix cornix]
+Length=107
+
+ Score = 112 bits (281),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 70/107 (65%), Positives = 76/107 (71%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL GP  + A V+QHLCGSHLVEALYLVCGERGFFY PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSGPGSSHAAVSQHLCGSHLVEALYLVCGERGFFYQPKARRDVEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G L  L     E    KRGIVEQCC + CSLYQLENYC+
+Sbjct  61   PLVSGPLHGELGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCD  107
+
+
+>ref|XP_010159413.1| PREDICTED: insulin [Eurypyga helias]
+ gb|KFV99407.1| Insulin [Eurypyga helias]
+Length=107
+
+ Score = 112 bits (281),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 76/107 (71%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW++ LPLLALLAL GP  + A  NQHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIQSLPLLALLALSGPGTSHAAANQHLCGSHLVEALYLVCGERGFFYSPKARRDIEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGELPFHQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_010011817.1| PREDICTED: insulin [Nestor notabilis]
+ gb|KFQ48578.1| Insulin [Nestor notabilis]
+Length=107
+
+ Score = 112 bits (280),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 75/107 (70%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+  LPLLALLAL GP  + A  NQHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWILSLPLLALLALSGPGTSHAAANQHLCGSHLVEALYLVCGERGFFYSPKARRDVEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGDLPFQPEEFQKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_009808574.1| PREDICTED: insulin [Gavia stellata]
+ gb|KFV52347.1| Insulin [Gavia stellata]
+Length=107
+
+ Score = 112 bits (280),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 75/107 (70%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL GP  + A   QHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSGPGTSQAAATQHLCGSHLVEALYLVCGERGFFYSPKARRDIEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_008920278.1| PREDICTED: insulin [Manacus vitellinus]
+ gb|KFW79394.1| Insulin [Manacus vitellinus]
+Length=107
+
+ Score = 112 bits (279),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 74/107 (69%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL GP  +    NQHLCGSHLVEALYLVCGERGFFY PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSGPGTSHGAANQHLCGSHLVEALYLVCGERGFFYYPKARRDVEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_005237374.1| PREDICTED: insulin [Falco peregrinus]
+ ref|XP_005439170.1| PREDICTED: insulin [Falco cherrug]
+Length=107
+
+ Score = 111 bits (278),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 68/107 (64%), Positives = 73/107 (68%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALL L GP  + A   QHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLTLSGPGTSHAAATQHLCGSHLVEALYLVCGERGFFYSPKARRDVEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G    L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSSPLHGEAGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_010002178.1| PREDICTED: insulin [Chaetura pelagica]
+ gb|KFU94352.1| Insulin [Chaetura pelagica]
+Length=107
+
+ Score = 110 bits (276),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 70/107 (65%), Positives = 76/107 (71%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL  P  + A VNQHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSSPGTSQAAVNQHLCGSHLVEALYLVCGERGFFYSPKARRDIEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEIGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_009918866.1| PREDICTED: insulin [Haliaeetus albicilla]
+ ref|XP_010562197.1| PREDICTED: insulin [Haliaeetus leucocephalus]
+ ref|XP_011574118.1| PREDICTED: insulin [Aquila chrysaetos canadensis]
+ gb|KFQ05338.1| Insulin [Haliaeetus albicilla]
+Length=107
+
+ Score = 110 bits (276),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 75/107 (70%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL  P  + A  NQHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSIPGTSHAAANQHLCGSHLVEALYLVCGERGFFYSPKARRDIEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>gb|KFP52374.1| Insulin [Cathartes aura]
+Length=107
+
+ Score = 110 bits (274),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 75/107 (70%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL  P  + A  NQHLCGSHLVEALYLVCGERGFFY+PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSSPGTSHAVANQHLCGSHLVEALYLVCGERGFFYSPKARRDVEQ  60
+
+Query  61   ------LQGSLQPLAL---EGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                  L G +  L     E    KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEVGELPFQQEEFEKVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_007424294.1| PREDICTED: insulin [Python bivittatus]
+Length=104
+
+ Score = 109 bits (272),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 60/104 (58%), Positives = 72/104 (69%), Gaps = 6/104 (6%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            M LW+R LPLL LLA+  P  + A  NQHLCGSHLVEALYLVCG+RGF+Y+P++RR  E 
+Sbjct  1    MTLWIRSLPLLLLLAVSAPTISYAAPNQHLCGSHLVEALYLVCGDRGFYYSPRSRRNMEQ  60
+
+Query  61   ------LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+                   Q  ++    E    KRGIVEQCC + CSLY+LENYCN
+Sbjct  61   PLVNGPFQNEVEVPLQEFQKSKRGIVEQCCENTCSLYELENYCN  104
+
+
+>ref|XP_009905017.1| PREDICTED: insulin [Picoides pubescens]
+ gb|KFV72196.1| Insulin [Picoides pubescens]
+Length=107
+
+ Score = 106 bits (264),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 69/107 (64%), Positives = 74/107 (69%), Gaps = 9/107 (8%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            MALW+R LPLLALLAL  P  + A   QHLCGSHLVEALYLVCGERGFFY PK RR+ E 
+Sbjct  1    MALWIRSLPLLALLALSSPGTSQAAATQHLCGSHLVEALYLVCGERGFFYYPKARRDIEQ  60
+
+Query  61   --LQGSLQPLALEGSLQ-------KRGIVEQCCTSICSLYQLENYCN  98
+              + G L   A E   Q       KRGIVEQCC + CSLYQLENYCN
+Sbjct  61   PLVSGPLHGEAGELPFQQAEFEQVKRGIVEQCCHNTCSLYQLENYCN  107
+
+
+>ref|XP_007902984.1| PREDICTED: insulin [Callorhinchus milii]
+Length=113
+
+ Score = 101 bits (251),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 56/113 (50%), Positives = 64/113 (57%), Gaps = 15/113 (13%)
+
+Query  1    MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+            M LW R   +  L+AL GP P+     Q LCGSHLV+ALY VCGERGFFY+PK  R+   
+Sbjct  1    MMLWNRFGFVALLMALSGPKPSETVPTQRLCGSHLVDALYFVCGERGFFYSPKQIRDVGP  60
+
+Query  61   LQG--SLQP-------------LALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+            L     L+P               L GS  KRGIVEQCC + CSL  LE YCN
+Sbjct  61   LSAFRDLEPPLDTEMEDRFPHRQQLAGSKMKRGIVEQCCHNTCSLVNLEGYCN  113
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Dec 7, 2015  10:23 AM
+  Number of letters in database: -1,771,837,172
+  Number of sequences in database:  77,704,984
+
+Lambda      K        H
+   0.325    0.140    0.454 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77704984
+Number of Hits to DB: 6023272
+Number of extensions: 3960
+Number of successful extensions: 1308
+Number of sequences better than 100: 90
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 1243
+Number of HSP's successfully gapped: 90
+Length of query: 98
+Length of database: 28292933896
+Length adjustment: 68
+Effective length of query: 30
+Effective length of database: 23008994984
+Effective search space: 690269849520
+Effective search space used: 690269849520
+T: 21
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 73 (32.7 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

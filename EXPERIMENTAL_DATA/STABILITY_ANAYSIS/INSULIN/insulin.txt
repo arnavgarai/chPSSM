@@ -1,0 +1,49 @@
+BLASTP 2.3.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 6XMRD42Z11N
+
+
+Query= gi|114318995|gb|ABI63346.1| insulin [Homo sapiens]
+
+Length=98
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+ref|XP_008967348.1|  PREDICTED: insulin isoform X2 [Pan paniscus]  201     2e-72
+
+ALIGNMENTS
+>ref|XP_008967348.1| PREDICTED: insulin isoform X2 [Pan paniscus]
+Length=98
+
+ Score = 201 bits (510),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 97/98 (99%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+           MALWMRLLPLLALLALWGPDPA+AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED
+Sbjct  1   MALWMRLLPLLALLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED  60
+
+Query  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+           LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
+Sbjct  61  LQGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN  98
+
+
+
+
+
+
